@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "daily_trades",
+  "info": {
+    "name": "DailyTrades"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Date": {
+      "type": "string"
+    },
+    "Fund": {
+      "type": "string"
+    },
+    "Ticker": {
+      "type": "string"
+    },
+    "Amount": {
+      "type": "biginteger"
+    }
+  }
+}

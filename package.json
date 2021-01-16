@@ -1,0 +1,38 @@
+{
+  "name": "ark-parser",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A parser for Ark Investment",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "axios": "^0.21.1",
+    "knex": "<0.20.0",
+    "qs": "^6.9.4",
+    "sqlite3": "latest",
+    "strapi": "3.4.3",
+    "strapi-admin": "3.4.3",
+    "strapi-connector-bookshelf": "3.4.3",
+    "strapi-plugin-content-manager": "3.4.3",
+    "strapi-plugin-content-type-builder": "3.4.3",
+    "strapi-plugin-documentation": "^3.4.3",
+    "strapi-plugin-email": "3.4.3",
+    "strapi-plugin-upload": "3.4.3",
+    "strapi-plugin-users-permissions": "3.4.3",
+    "strapi-utils": "3.4.3",
+    "xlsx": "^0.16.9"
+  },
+  "author": {
+    "name": "Kuolung Cheng"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

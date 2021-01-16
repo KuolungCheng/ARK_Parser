@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/daily-trades",
+      "handler": "daily-trades.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/daily-trades/count",
+      "handler": "daily-trades.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/daily-trades/:id",
+      "handler": "daily-trades.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/daily-trades",
+      "handler": "daily-trades.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/daily-trades/:id",
+      "handler": "daily-trades.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/daily-trades/:id",
+      "handler": "daily-trades.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

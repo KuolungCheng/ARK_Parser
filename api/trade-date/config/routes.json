@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/trade-dates",
+      "handler": "trade-date.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/trade-dates/count",
+      "handler": "trade-date.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/trade-dates/:id",
+      "handler": "trade-date.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/trade-dates",
+      "handler": "trade-date.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/trade-dates/:id",
+      "handler": "trade-date.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/trade-dates/:id",
+      "handler": "trade-date.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trade_dates",
+  "info": {
+    "name": "TradeDates",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Date": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
